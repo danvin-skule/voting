@@ -31,10 +31,9 @@ input.onButtonPressed(Button.B, function () {
 })
 let total = 0
 let dctuj = ""
-let за = 0
 let против = 0
-против = 0
-за = 0
+let за = 0
+basic.showString("A=yes B=no P0=info")
 basic.forever(function () {
     total = за + против
 })
